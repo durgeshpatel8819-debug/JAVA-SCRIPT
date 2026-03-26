@@ -10,12 +10,15 @@
 // }
 
 //rest operator
+addNumber(3,4);
+addNumber(3,4,5);
+addNumber(3,4,5,6);
 function addNumber(...num){
     let sum =0;
     for(let n of num){
         sum=sum+n;
     }
     console.log(sum)}
-addNumber(3,4);
-addNumber(3,4,5);
-addNumber(3,4,5,6);
+// addNumber(3,4);
+// addNumber(3,4,5);
+// addNumber(3,4,5,6);
