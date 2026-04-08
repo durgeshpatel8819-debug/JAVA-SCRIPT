@@ -48,3 +48,8 @@ for (let food of arr){
     
 }
 unorderlist.append(fragement);
+
+//delete an element
+
+const deleleElement =document.getElementById("first");
+deleleElement.remove();
