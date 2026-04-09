@@ -15,10 +15,14 @@
 
 
 const parent=document.getElementById("parent");
-console.log(parent.children);
+// console.log(parent.children);
+parent.addEventListener('click',(e)=>{
+  e.target.textContent ="I am clicked";
 
-for(let child of parent.children){
-    child.addEventListener('click',()=>{
-      child.textContent ="i am clicked";  
-    })
-}
+})
+
+// for(let child of parent.children){
+//     child.addEventListener('click',()=>{
+//       child.textContent ="i am clicked";  
+//     })
+// }
